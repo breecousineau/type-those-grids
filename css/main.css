@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   line-height: 1.5;
 }
 
@@ -11,15 +11,32 @@ html {
 }
 
 header {
-
+  padding:
 }
 
-grid-template-columns {
-
+h1, h2, h3 {
+  font-style: italic;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.8rem;
+  font-family: "Merriweather";
 }
 
-grid-template-areas {
+img {
+  width: 100%;
+}
 
+body {
+  margin: 0;
+  padding-bottom: 1rem;
+  padding-top: 1.5rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "banner banner banner" "col1 col2 col3";
+  gap: 1rem;
 }
 
 grid-area {
