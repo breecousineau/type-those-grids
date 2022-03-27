@@ -19,24 +19,12 @@ h1, h2, h3 {
   font-weight: normal;
   font-style: italic;
   font-size: 1.8rem;
-  font-family: "Merriweather";
 }
 
-img {
-  width: 100%;
-}
-
-body {
-  margin: 0;
-  padding-bottom: 1rem;
-  padding-top: 1.5rem;
-}
-
-main {
+dl {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "banner banner banner" "col1 col2 col3";
-  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
 }
 
 grid-area {
@@ -45,4 +33,23 @@ grid-area {
 
 align-self {
 
+}
+
+.container {
+  text-align: left;
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+figure img {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 1rem;
+  padding-top: 1.5rem;
 }
