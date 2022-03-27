@@ -34,16 +34,12 @@ body {
   grid-area: column;
   padding-top: 1.5rem;
   padding-bottom: 1rem;
-  padding-top: 1.5rem;
 }
 
 .banner {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-}
-
-align-self {
-
+  grid-template-rows: 1fr 4rem
 }
 
 .container {
