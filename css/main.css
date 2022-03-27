@@ -11,7 +11,7 @@ html {
 }
 
 header {
-  padding:
+  padding: 1.5rem;
 }
 
 h1, h2, h3 {
@@ -21,14 +21,12 @@ h1, h2, h3 {
   font-size: 1.8rem;
 }
 
-dl {
+main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-}
-
-grid-area {
-
+  grid-template-areas:
+    "column" "column" "column" ;
+  gap: .75rem;
 }
 
 align-self {
@@ -50,6 +48,8 @@ figure img {
 
 body {
   margin: 0;
+  grid-area: column;
+  padding-top: 1.5rem;
   padding-bottom: 1rem;
   padding-top: 1.5rem;
 }
