@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: Merriweather, serif;
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
 
 *,
@@ -20,7 +20,6 @@ h2 {
   font-style: italic;
   font-weight: normal;
   font-size: 1.5rem;
-
 }
 
 img {
@@ -40,8 +39,6 @@ main {
 body {
   margin: 0;
   grid-area: column;
-  padding-top: 1.1rem;
-  padding-bottom: 1rem;
 }
 
 .banner-img {
