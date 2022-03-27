@@ -13,12 +13,17 @@ html {
 h1 {
   font-size: 1.8rem;
   font-style: italic;
+  font-weight: normal;
 }
 
 h2 {
   font-style: italic;
   font-weight: normal;
   font-size: 1.5rem;
+}
+
+img {
+  width: 100%;
 }
 
 main {
