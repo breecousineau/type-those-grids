@@ -36,9 +36,6 @@ main {
 
 body {
   margin: 0;
-  grid-area: column;
-  padding-top: 1.5rem;
-  padding-bottom: 1rem;
 }
 
 .banner {
