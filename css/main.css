@@ -69,3 +69,7 @@ figcaption {
 dl {
   padding-left: 1rem;
 }
+
+dt {
+  font-style: italic;
+}
