@@ -44,7 +44,7 @@ body {
 
 .banner-text {
   color: white;
-  margin:0;
+  margin: 0;
   grid-area: banner;
   padding: 1rem;
   align-self: end;
@@ -53,6 +53,7 @@ body {
 figure {
   margin: 0;
 }
+
 figcaption {
   padding-top: 1rem;
   padding-left: .5rem;
